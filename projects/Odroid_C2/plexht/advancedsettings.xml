@@ -1,21 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <advancedsettings>
+  <fullscreen>true</fullscreen>
+<splash>false</splash>
   <showexitbutton>false</showexitbutton>
   <remotedelay>1</remotedelay>
-
+  <cputempcommand>cputemp</cputempcommand>
+  <gputempcommand>gputemp</gputempcommand>
+  <showexitbutton>false</showexitbutton>
+  <remotedelay>1</remotedelay>
   <useddsfanart>false</useddsfanart>
-
   <video>
+    <latency>
+      <delay>0</delay>
+      <refresh>
+        <min>23</min>
+        <max>24</max>
+        <delay>175</delay>
+      </refresh>
+    </latency>
+    <busydialogdelayms>750</busydialogdelayms>
     <busydialogdelayms>750</busydialogdelayms>
   </video>
-
   <samba>
     <clienttimeout>30</clienttimeout>
   </samba>
-
   <network>
     <curlclienttimeout>30</curlclienttimeout>
     <readbufferfactor>4.0</readbufferfactor>
-  </network>
-
+  </network>  
 </advancedsettings>
