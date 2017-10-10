@@ -385,11 +385,7 @@
         <style>1</style>
         <videoplayer>0</videoplayer>
     </subtitles>
-    <system>
-        <firstrunwizard>true</firstrunwizard>
-        <mostrecentplayqueue></mostrecentplayqueue>
-        <uuid></uuid>
-    </system>
+
     <updates>
         <auto>false</auto>
         <channel>16</channel>
