@@ -229,7 +229,7 @@
         <skinsettings></skinsettings>
         <skintheme>SKINDEFAULT</skintheme>
         <skinzoom>0</skinzoom>
-        <soundskin>SKINDEFAULT</soundskin>
+        <soundskin>OFF</soundskin>
         <startupwindow>10000</startupwindow>
     </lookandfeel>
     <masterlock>
@@ -249,7 +249,7 @@
     </musicfiles>
     <musicplayer>
         <autoplaynextitem>true</autoplaynextitem>
-        <crossfade>0</crossfade>
+        <crossfade>6</crossfade>
         <crossfadealbumtracks>true</crossfadealbumtracks>
         <queuebydefault>false</queuebydefault>
         <replaygainavoidclipping>false</replaygainavoidclipping>
@@ -265,12 +265,12 @@
         <disablepicturetranscode>false</disablepicturetranscode>
         <disablepreplay>false</disablepreplay>
         <enablequeueandrec>true</enablequeueandrec>
-        <hidechannels>false</hidechannels>
+        <hidechannels>true</hidechannels>
         <hidecloudsync>false</hidecloudsync>
         <recentlywatched>true</recentlywatched>
-        <searchsharedlibraries>true</searchsharedlibraries>
+        <searchsharedlibraries>false</searchsharedlibraries>
         <servernameshared>true</servernameshared>
-        <sharedsectionsonhome>false</sharedsectionsonhome>
+        <sharedsectionsonhome>true</sharedsectionsonhome>
         <signin></signin>
         <status>Not signed in</status>
         <token></token>
@@ -331,7 +331,7 @@
         <mode></mode>
         <preview></preview>
         <settings></settings>
-        <time>5</time>
+        <time>3</time>
         <usedimonpause>true</usedimonpause>
         <usemusicvisinstead>true</usemusicvisinstead>
     </screensaver>
@@ -386,9 +386,9 @@
         <videoplayer>0</videoplayer>
     </subtitles>
     <system>
-        <firstrunwizard>false</firstrunwizard>
+        <firstrunwizard>true</firstrunwizard>
         <mostrecentplayqueue></mostrecentplayqueue>
-        <uuid></uuid>
+        <uuid>defc9fab-929a-41e0-8ea6-05797fc9d610</uuid>
     </system>
     <updates>
         <auto>false</auto>
