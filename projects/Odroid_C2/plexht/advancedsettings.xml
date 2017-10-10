@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <advancedsettings>
   <fullscreen>true</fullscreen>
-<splash>true</splash>
-  <showexitbutton>false</showexitbutton>
+  <splash>true</splash>
   <remotedelay>1</remotedelay>
   <cputempcommand>cputemp</cputempcommand>
   <gputempcommand>gputemp</gputempcommand>
