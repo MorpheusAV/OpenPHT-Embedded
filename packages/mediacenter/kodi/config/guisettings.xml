@@ -29,82 +29,82 @@
     </myvideos>
     <viewstates>
         <musicnavartists>
-            <viewmode>0</viewmode>
+            <viewmode>65536</viewmode>
             <sortmethod>1</sortmethod>
             <sortorder>1</sortorder>
         </musicnavartists>
         <musicnavalbums>
-            <viewmode>0</viewmode>
+            <viewmode>65536</viewmode>
             <sortmethod>1</sortmethod>
             <sortorder>1</sortorder>
         </musicnavalbums>
         <musicnavsongs>
-            <viewmode>0</viewmode>
+            <viewmode>65536</viewmode>
             <sortmethod>1</sortmethod>
             <sortorder>1</sortorder>
         </musicnavsongs>
         <musiclastfm>
-            <viewmode>0</viewmode>
+            <viewmode>65536</viewmode>
             <sortmethod>1</sortmethod>
             <sortorder>1</sortorder>
         </musiclastfm>
         <videonavactors>
-            <viewmode>0</viewmode>
+            <viewmode>65536</viewmode>
             <sortmethod>1</sortmethod>
             <sortorder>1</sortorder>
         </videonavactors>
         <videonavyears>
-            <viewmode>0</viewmode>
+            <viewmode>65536</viewmode>
             <sortmethod>1</sortmethod>
             <sortorder>1</sortorder>
         </videonavyears>
         <videonavgenres>
-            <viewmode>0</viewmode>
+            <viewmode>65536</viewmode>
             <sortmethod>1</sortmethod>
             <sortorder>1</sortorder>
         </videonavgenres>
         <videonavtitles>
-            <viewmode>0</viewmode>
+            <viewmode>65536</viewmode>
             <sortmethod>1</sortmethod>
             <sortorder>1</sortorder>
         </videonavtitles>
         <videonavepisodes>
-            <viewmode>0</viewmode>
+            <viewmode>65536</viewmode>
             <sortmethod>1</sortmethod>
             <sortorder>1</sortorder>
         </videonavepisodes>
         <videonavseasons>
-            <viewmode>0</viewmode>
+            <viewmode>65536</viewmode>
             <sortmethod>1</sortmethod>
             <sortorder>1</sortorder>
         </videonavseasons>
         <videonavtvshows>
-            <viewmode>0</viewmode>
+            <viewmode>65536</viewmode>
             <sortmethod>1</sortmethod>
             <sortorder>1</sortorder>
         </videonavtvshows>
         <videonavmusicvideos>
-            <viewmode>0</viewmode>
+            <viewmode>65536</viewmode>
             <sortmethod>1</sortmethod>
             <sortorder>1</sortorder>
         </videonavmusicvideos>
         <programs>
-            <viewmode>0</viewmode>
+            <viewmode>65536</viewmode>
             <sortmethod>1</sortmethod>
             <sortorder>1</sortorder>
         </programs>
         <pictures>
-            <viewmode>0</viewmode>
+            <viewmode>65536</viewmode>
             <sortmethod>1</sortmethod>
             <sortorder>1</sortorder>
         </pictures>
         <videofiles>
-            <viewmode>0</viewmode>
+            <viewmode>65536</viewmode>
             <sortmethod>1</sortmethod>
             <sortorder>1</sortorder>
         </videofiles>
         <musicfiles>
-            <viewmode>0</viewmode>
+            <viewmode>65536</viewmode>
             <sortmethod>1</sortmethod>
             <sortorder>1</sortorder>
         </musicfiles>
@@ -160,7 +160,7 @@
     <audiooutput>
         <ac3passthrough>true</ac3passthrough>
         <ac3transcode>false</ac3transcode>
-        <audiodevice>ALSA:default</audiodevice>
+        <audiodevice>ALSA:hdmi:CARD=AMLM8AUDIO,DEV=0</audiodevice>
         <boostcenter>0</boostcenter>
         <channels>1</channels>
         <config>2</config>
@@ -185,7 +185,7 @@
         <thememusicenabled>false</thememusicenabled>
     </backgroundmusic>
     <cache>
-        <percent>5</percent>
+        <percent>10</percent>
     </cache>
     <debug>
         <dirtyregionsalgorithm>1</dirtyregionsalgorithm>
@@ -214,11 +214,11 @@
     </input>
     <locale>
         <audiolanguage>original</audiolanguage>
-        <country>USA</country>
+        <country>USA (12h)</country>
         <language>english</language>
         <subtitlelanguage>original</subtitlelanguage>
-        <timezone></timezone>
-        <timezonecountry></timezonecountry>
+        <timezone>America/Los_Angeles</timezone>
+        <timezonecountry>United States</timezonecountry>
     </locale>
     <lookandfeel>
         <enablerssfeeds>false</enablerssfeeds>
@@ -230,7 +230,7 @@
         <skintheme>SKINDEFAULT</skintheme>
         <skinzoom>0</skinzoom>
         <soundskin>SKINDEFAULT</soundskin>
-        <startupwindow>1</startupwindow>
+        <startupwindow>10000</startupwindow>
     </lookandfeel>
     <masterlock>
         <lockcode>-</lockcode>
@@ -267,9 +267,9 @@
         <enablequeueandrec>true</enablequeueandrec>
         <hidechannels>false</hidechannels>
         <hidecloudsync>false</hidecloudsync>
-        <recentlywatched>false</recentlywatched>
+        <recentlywatched>true</recentlywatched>
         <searchsharedlibraries>true</searchsharedlibraries>
-        <servernameshared>false</servernameshared>
+        <servernameshared>true</servernameshared>
         <sharedsectionsonhome>false</sharedsectionsonhome>
         <signin></signin>
         <status>Not signed in</status>
@@ -306,7 +306,7 @@
         <address>0.0.0.0</address>
         <forcetranscode>false</forcetranscode>
         <limithevc>7680</limithevc>
-        <localhost>true</localhost>
+        <localhost>false</localhost>
         <localquality>0</localquality>
         <localqualitystr>Direct Play</localqualitystr>
         <manualaddress>false</manualaddress>
@@ -328,10 +328,10 @@
         <tvshowsdefault>metadata.tvdb.com</tvshowsdefault>
     </scrapers>
     <screensaver>
-        <mode>screensaver.xbmc.builtin.dim</mode>
+        <mode></mode>
         <preview></preview>
         <settings></settings>
-        <time>3</time>
+        <time>5</time>
         <usedimonpause>true</usedimonpause>
         <usemusicvisinstead>true</usemusicvisinstead>
     </screensaver>
@@ -345,7 +345,7 @@
         <librefmusername></librefmusername>
     </scrobbler>
     <services>
-        <devicename>Morpheus</devicename>
+        <devicename>MorpheusMicro</devicename>
         <esallinterfaces>false</esallinterfaces>
         <escontinuousdelay>25</escontinuousdelay>
         <esenabled>false</esenabled>
@@ -355,7 +355,7 @@
         <esportrange>10</esportrange>
         <plexplayer>true</plexplayer>
         <upnpannounce>false</upnpannounce>
-        <upnprenderer>false</upnprenderer>
+        <upnprenderer>true</upnprenderer>
         <upnpserver>false</upnpserver>
         <webserver>true</webserver>
         <webserverpassword></webserverpassword>
@@ -386,15 +386,15 @@
         <videoplayer>0</videoplayer>
     </subtitles>
     <system>
-        <firstrunwizard>true</firstrunwizard>
+        <firstrunwizard>false</firstrunwizard>
         <mostrecentplayqueue></mostrecentplayqueue>
-        <uuid>defc9fab-929a-41e0-8ea6-05797fc9d610</uuid>
+        <uuid></uuid>
     </system>
     <updates>
-        <auto>true</auto>
+        <auto>false</auto>
         <channel>16</channel>
         <checknow></checknow>
-        <current>1.8.0.0-573b6d73</current>
+        <current>1.8.0.0-fd36d783</current>
     </updates>
     <videolibrary>
         <actorthumbs>true</actorthumbs>
@@ -434,7 +434,7 @@
         <haslcd>false</haslcd>
         <limitedrange>false</limitedrange>
         <preferedstereoscopicmode>100</preferedstereoscopicmode>
-        <resolution>-1</resolution>
+        <resolution>0</resolution>
         <screen>0</screen>
         <screenmode>DESKTOP</screenmode>
         <stereoscopicmode>0</stereoscopicmode>
@@ -463,10 +463,6 @@
         <setting type="bool" name="skin.plex.ShowAllMediaFlags">false</setting>
         <setting type="bool" name="skin.plex.HideQuitShutdown">false</setting>
         <setting type="bool" name="skin.plex.ShowRestrictedPowerOptions">false</setting>
-        <setting type="string" name="skin.plex.SectionType"></setting>
-        <setting type="string" name="skin.plex.AspectRatio">16:9</setting>
-        <setting type="string" name="skin.plex.DialogPos"></setting>
-        <setting type="string" name="skin.plex.SettingsCategory">system</setting>
         <setting type="bool" name="skin.morpheus.keyboard.enable">false</setting>
         <setting type="bool" name="skin.morpheus.Weather_Widget">false</setting>
         <setting type="bool" name="skin.morpheus.XBMC">false</setting>
@@ -1044,6 +1040,10 @@
         <setting type="bool" name="skin.morpheus.FullscreenJukebox">false</setting>
         <setting type="bool" name="skin.morpheus.FanartNoVisualisation">false</setting>
         <setting type="bool" name="skin.morpheus.ShowRestrictedPowerOptions">false</setting>
+        <setting type="string" name="skin.plex.SectionType"></setting>
+        <setting type="string" name="skin.plex.AspectRatio">16:9</setting>
+        <setting type="string" name="skin.plex.DialogPos"></setting>
+        <setting type="string" name="skin.plex.SettingsCategory">system</setting>
         <setting type="string" name="skin.morpheus.Home_Opacity">60</setting>
         <setting type="string" name="skin.morpheus.Home_Fadetime">800</setting>
         <setting type="string" name="skin.morpheus.Home_TimePerImage">20</setting>
