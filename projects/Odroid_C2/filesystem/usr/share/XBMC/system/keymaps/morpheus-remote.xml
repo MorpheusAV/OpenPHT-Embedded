@@ -1,0 +1,9 @@
+
+<keymap>
+  <FullscreenVideo>
+    <remote>
+      <right>FastForward</right>
+      <left>Rewind</left>
+    </remote>
+  </FullscreenVideo>
+</keymap>
