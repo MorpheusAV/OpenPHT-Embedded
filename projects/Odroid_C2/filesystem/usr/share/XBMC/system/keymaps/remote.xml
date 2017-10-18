@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <keymap>
   <global>
-    <remote>
-        <home>XBMC.ActivateWindow(Home)</home>
+      <remote>
+        <start>XBMC.ActivateWindow(Home)</start>
       </remote>
   </global>
   <FullscreenVideo>
     <remote>
-      <home>OSD</home>
+      <start>OSD</start>
       <select>PlayPause</select>
       <menu>Stop</menu>
       <right>FastForward</right>
       <left>Rewind</left>
     </remote>
   </FullscreenVideo>
-</keymap>
+ </keymap> 
